@@ -49,6 +49,5 @@ class UserTest extends TestCase
         foreach($ratings as $rating){
             $this->assertEquals('zombies', $rating->getGame()->getGenreCode());
         }
-
    }
 }
